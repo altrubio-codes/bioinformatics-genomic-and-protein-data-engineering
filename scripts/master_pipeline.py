@@ -81,7 +81,7 @@ def translate_rna(rna_string):
     return protein_sequence
 
 # Main execution block to read the FASTA file, transcribe the DNA, and translate it into a protein sequence.
-file_path = r"C:\Users\Gebruiker\Documents\Visual Studio 18\My codes\bioinformatics\sample.fasta"
+file_path = "../sample.fasta"
 
 # Print a header to indicate the start of the pipeline execution and provide some context about the process.
 print("\n" + "="*50)
